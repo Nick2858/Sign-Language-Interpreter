@@ -510,4 +510,3 @@ while True:
 
         elif chosen and picked and lmList[hand][0][0] < w:
             sentence, picked, chosen = choose(lmList, hand, sentence, picked, choose)
-
