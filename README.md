@@ -19,4 +19,4 @@ The right hand is used for spelling letters, the symbols for these letters can b
 
 ### Determining Hand Symbols
 
-After every frame, MediaPipe outputs a nested list where the coordinates of each "joint" in both the left and right hand are stored. For each hand sign, the position of these finger joints is unique. Therefore, by comparing the coordinates of the finger joints relative to each other, symbols can be identified.
+After every frame, MediaPipe outputs a nested list where the coordinates of each "joint" in both the left and right hand are stored. For each hand sign, the position of these finger joints is unique. Therefore, by comparing the coordinates of the finger joints relative to each other, symbols can be identified. 
