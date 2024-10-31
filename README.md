@@ -4,7 +4,7 @@ This project utilizes Open-CV and MediaPipe to translate alphabetical sign langu
 
 
 ## Functionality
-When running the [`signlanguageinterpreter.py`](signlanguageinterpreter.py) script, make sure that you have a webcam connected to your computer. 
+When running the [`signlanguageinterpreter.py`](signlanguageinterpreter.py) script, make sure that you have a webcam connected to your computer. The video feed from the camera is split into a left hand and right hand side.
 
 ### Left Hand
 
