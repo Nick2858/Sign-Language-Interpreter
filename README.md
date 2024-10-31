@@ -14,6 +14,6 @@ Your left hand is used for controls including playback, confirming letters, back
 
 The right hand is used for spelling letters, the symbols for these letters can be found in the [`Letters`](Letters) folder. Note that some letter symbols had to be modified from the standard symbols as MediaPipe has a hard time detecting when fingers are crossed.
 
-## How it Works
+## Demo
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/RDK9m6hkhY0/0.jpg)](https://youtu.be/RDK9m6hkhY0)
