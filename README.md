@@ -1,6 +1,6 @@
 # Sign Language Interpreter
 
-This project utilizes Open-CV and MediaPipe to translate alphabetical sign language to text on a screen with Text-To-Speech playback using pytts. 
+This is a project I developped in 2022 while I was in high school. It utilizes Open-CV and MediaPipe to translate alphabetical sign language to text on a screen with Text-To-Speech playback using pyttsx3. 
 
 ## Demo
 
