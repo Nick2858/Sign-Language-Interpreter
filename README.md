@@ -16,3 +16,4 @@ The right hand is used for spelling letters, the symbols for these letters can b
 
 ## How it Works
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/RDK9m6hkhY0/0.jpg)]([[https://www.youtube.com/watch?v=PtSQIQeD2YM](https://youtu.be/RDK9m6hkhY0)](https://youtu.be/RDK9m6hkhY0))
