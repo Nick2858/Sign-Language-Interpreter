@@ -79,6 +79,11 @@ def play(lmList, hand, sentence, chosen):
                 return sentence, chosen
         if lmList[hand][4][1] < lmList[hand][0][1] and lmList[hand][4][0] > lmList[hand][5][0] and lmList[hand][4][1] \
                 < lmList[hand][7][1]:
+
+            engine = pyttsx3.init()
+            engine.setProperty("rate", 100)
+            voices = engine.getProperty("voices")
+            engine.setProperty('voice', voices[1].id)
             engine.say(str(sentence))
             engine.runAndWait()
             sentence = ""
@@ -128,7 +133,7 @@ def D(lmList, hand, sentence, picked):
                 pass
             else:
                 return sentence, picked
-        if lmList[hand][4][1] > lmList[hand][5][1] and lmList[hand][4][0] > lmList[hand][5][0] and lmList[hand][5][0] < lmList[hand][18][0]:
+        if lmList[hand][4][1] > lmList[hand][5][1] and lmList[hand][4][0] > lmList[hand][5][0] and lmList[hand][4][0] < lmList[hand][13][0]and lmList[hand][5][0] < lmList[hand][18][0]:
             picked = True
             sentence += "d"
     return sentence, picked
@@ -185,13 +190,13 @@ def H(lmList, hand, sentence, picked):
     return sentence, picked
 
 def I(lmList, hand, sentence, picked):
-    if lmList[hand][20][1] < lmList[hand][18][1]:
-        for point in range(len(fingerMCP) - 1):
+    if lmList[hand][8][1] < lmList[hand][6][1]:
+        for point in range(1, len(fingerMCP)):
             if lmList[hand][fingerTIP[point]][1] > lmList[hand][fingerPIP[point]][1]:
                 pass
             else:
                 return sentence, picked
-        if lmList[hand][4][1] > lmList[hand][5][1] and lmList[hand][4][0] > lmList[hand][9][0] and lmList[hand][5][0] < lmList[hand][18][0]:
+        if lmList[hand][4][1] > lmList[hand][5][1] and lmList[hand][4][0] > lmList[hand][13][0] and  lmList[hand][5][0] < lmList[hand][18][0]:
                 picked = True
                 sentence += "i"
 
@@ -422,10 +427,7 @@ def Z(lmList, hand, sentence, picked):
             sentence += "z"
     return sentence, picked
 
-engine = pyttsx3.init()
-engine.setProperty("rate", 120)
-voices = engine.getProperty("voices")
-engine.setProperty('voice', voices[1].id)
+
 
 fingerMCP = [5,9,13,17]
 fingerPIP = [6,10,14,18]
